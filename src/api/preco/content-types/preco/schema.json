@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "precos",
+  "info": {
+    "singularName": "preco",
+    "pluralName": "precos",
+    "displayName": "Preços",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "preco": {
+      "type": "decimal",
+      "default": 0
+    }
+  }
+}

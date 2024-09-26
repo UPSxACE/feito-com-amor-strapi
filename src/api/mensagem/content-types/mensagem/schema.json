@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mensagens",
+  "info": {
+    "singularName": "mensagem",
+    "pluralName": "mensagens",
+    "displayName": "Mensagens",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome_completo": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "telefone": {
+      "type": "string",
+      "required": true
+    },
+    "assunto": {
+      "type": "string",
+      "required": true
+    },
+    "mensagem": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
