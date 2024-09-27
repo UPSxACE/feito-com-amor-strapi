@@ -32,9 +32,9 @@ export default {
     ],
     translations: {
       "pt-BR": {
-        "header.actions.add-assets": "Adicionar novos assets",
-        "modal.folder.create.title": "Adicionar nova pasta",
-        "modal.folder.edit.title": "Editar pasta",
+        "upload.header.actions.add-assets": "Adicionar novos assets",
+        "upload.modal.folder.create.title": "Adicionar nova pasta",
+        "upload.modal.folder.edit.title": "Editar pasta",
       },
     },
   },
