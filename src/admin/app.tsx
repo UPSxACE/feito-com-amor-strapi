@@ -19,7 +19,7 @@ export default {
       // 'no',
       // 'pl',
       "pt-BR",
-      "pt",
+      // "pt",
       // 'ru',
       // 'sk',
       // 'sv',
@@ -30,6 +30,13 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+  },
+  translations: {
+    "pt-BR": {
+      "header.actions.add-assets": "Adicionar novos assets",
+      "modal.folder.create.title": "Adicionar nova pasta",
+      "modal.folder.edit.title": "Editar pasta",
+    },
   },
   bootstrap(app: StrapiApp) {
     console.log(app);
