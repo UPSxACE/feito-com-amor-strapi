@@ -316,9 +316,7 @@ export default {
         "content-manager.validation.error":
           "Há erros de validação no seu documento. Corrija-os antes de salvar.",
         /** extra */
-        "global.content-manager": "Gestão de conteúdos",
-        "global.plugins.content-manager": "Gestão de conteúdos",
-        "content-manager": "Gestão de conteúdos",
+        "content-manager.plugin.name": "Gestão de conteúdos",
       },
     },
   },
