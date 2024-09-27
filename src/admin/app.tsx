@@ -30,12 +30,12 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
-  },
-  translations: {
-    "pt-BR": {
-      "header.actions.add-assets": "Adicionar novos assets",
-      "modal.folder.create.title": "Adicionar nova pasta",
-      "modal.folder.edit.title": "Editar pasta",
+    translations: {
+      "pt-BR": {
+        "header.actions.add-assets": "Adicionar novos assets",
+        "modal.folder.create.title": "Adicionar nova pasta",
+        "modal.folder.edit.title": "Editar pasta",
+      },
     },
   },
   bootstrap(app: StrapiApp) {
