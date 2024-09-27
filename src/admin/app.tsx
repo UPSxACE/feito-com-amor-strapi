@@ -31,12 +31,13 @@ export default {
       // 'zh',
     ],
     translations: {
-      "en":{
+      en: {
         "Auth.form.welcome.title": "Welcome back!",
         "Auth.form.welcome.subtitle": "Login to your account",
       },
       "pt-BR": {
-        "Auth.form.welcome.subtitle": "Entrar na sua conta",
+        "app.components.Auth.form.welcome.subtitle": "Entrar na sua conta",
+        "app.Auth.form.welcome.subtitle": "Entrar na sua conta",
         /** Upload plugin */
         "upload.apiError.FileTooBig":
           "O arquivo enviado excede o tamanho máximo permitido.",
@@ -323,7 +324,7 @@ export default {
         /** extra */
         "content-manager.plugin.name": "Gestão de conteúdos",
         "upload.input.label": "Arraste & Solte aqui ou",
-        "upload.modal.upload-list.sub-header.add-folder"
+        "upload.modal.upload-list.sub-header.add-folder": "Adicionar pasta",
       },
     },
   },
