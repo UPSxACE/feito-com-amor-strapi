@@ -32,90 +32,94 @@ export default {
     ],
     translations: {
       "pt-BR": {
-        "apiError.FileTooBig":
+        "upload.apiError.FileTooBig":
           "O arquivo enviado excede o tamanho máximo permitido.",
-        "upload.generic-error": "Ocorreu um erro ao enviar o arquivo.",
-        "bulk.select.label": "Selecionar todos os arquivos",
-        "control-card.stop-crop": "Parar o recorte",
-        "form.upload-url.error.url.invalid": "Uma URL é inválida",
-        "form.upload-url.error.url.invalids": "{number} URLs são inválidas",
-        "header.actions.add-assets": "Adicionar novos arquivos",
-        "header.actions.add-folder": "Adicionar nova pasta",
-        "header.actions.add-assets.folder": "pasta",
-        "header.actions.upload-new-asset": "Enviar novo arquivo",
-        "header.content.assets-empty": "Nenhum arquivo",
-        "input.placeholder.icon": "Solte o arquivo nesta zona",
-        "input.notification.not-supported":
+        "upload.upload.generic-error": "Ocorreu um erro ao enviar o arquivo.",
+        "upload.bulk.select.label": "Selecionar todos os arquivos",
+        "upload.control-card.stop-crop": "Parar o recorte",
+        "upload.form.upload-url.error.url.invalid": "Uma URL é inválida",
+        "upload.form.upload-url.error.url.invalids":
+          "{number} URLs são inválidas",
+        "upload.header.actions.add-assets": "Adicionar novos arquivos",
+        "upload.header.actions.add-folder": "Adicionar nova pasta",
+        "upload.header.actions.add-assets.folder": "pasta",
+        "upload.header.actions.upload-new-asset": "Enviar novo arquivo",
+        "upload.header.content.assets-empty": "Nenhum arquivo",
+        "upload.input.placeholder.icon": "Solte o arquivo nesta zona",
+        "upload.input.notification.not-supported":
           "Você não pode enviar este tipo de arquivo, apenas os seguintes tipos são aceitos – {fileTypes}",
-        "list.assets.title": "Arquivos ({count})",
-        "list.asset.at.finished": "Os arquivos terminaram de carregar.",
-        "list.assets-empty.search": "Nenhum resultado encontrado",
-        "list.assets.empty": "A Biblioteca de Mídia está vazia",
-        "list.assets.empty-upload": "Envie seus primeiros arquivos...",
-        "list.assets.empty.no-permissions": "Sem permissões para visualizar",
-        "list.assets.loading-asset":
+        "upload.list.assets.title": "Arquivos ({count})",
+        "upload.list.asset.at.finished": "Os arquivos terminaram de carregar.",
+        "upload.list.assets-empty.search": "Nenhum resultado encontrado",
+        "upload.list.assets.empty": "A Biblioteca de Mídia está vazia",
+        "upload.list.assets.empty-upload": "Envie seus primeiros arquivos...",
+        "upload.list.assets.empty.no-permissions":
+          "Sem permissões para visualizar",
+        "upload.list.assets.loading-asset":
           "Carregando a visualização para a mídia: {path}",
-        "list.assets.not-supported-content": "Nenhuma visualização disponível",
-        "list.assets.preview-asset":
+        "upload.list.assets.not-supported-content":
+          "Nenhuma visualização disponível",
+        "upload.list.assets.preview-asset":
           "Visualização para o vídeo no caminho {path}",
-        "list.assets.selected":
+        "upload.list.assets.selected":
           "{numberFolders, plural, one {1 pasta} other {# pastas}} - {numberAssets, plural, one {1 arquivo} other {# arquivos}}",
-        "list-assets-select": "Selecionar arquivo {name}",
-        "list.folder.edit": "Editar pasta",
-        "list.folder.select": "Selecionar pasta {name}",
-        "list.folder.subtitle":
+        "upload.list-assets-select": "Selecionar arquivo {name}",
+        "upload.list.folder.edit": "Editar pasta",
+        "upload.list.folder.select": "Selecionar pasta {name}",
+        "upload.list.folder.subtitle":
           "{folderCount, plural, =0 {# pasta} one {# pasta} other {# pastas}}, {filesCount, plural, =0 {# arquivo} one {# arquivo} other {# arquivos}}",
-        "list.folders.title": "Pastas ({count})",
-        "list.folders.link-label": "Acessar pasta",
-        "mediaLibraryInput.actions.nextSlide": "Próximo slide",
-        "mediaLibraryInput.actions.previousSlide": "Slide anterior",
-        "mediaLibraryInput.placeholder":
+        "upload.list.folders.title": "Pastas ({count})",
+        "upload.list.folders.link-label": "Acessar pasta",
+        "upload.mediaLibraryInput.actions.nextSlide": "Próximo slide",
+        "upload.mediaLibraryInput.actions.previousSlide": "Slide anterior",
+        "upload.mediaLibraryInput.placeholder":
           "Clique para adicionar um arquivo ou arraste e solte um na área",
-        "mediaLibraryInput.slideCount": "{n} de {m} slides",
-        "modal.folder.move.title": "Mover elementos para",
-        "modal.remove.success-label":
+        "upload.mediaLibraryInput.slideCount": "{n} de {m} slides",
+        "upload.modal.folder.move.title": "Mover elementos para",
+        "upload.modal.remove.success-label":
           "Os elementos foram excluídos com sucesso.",
-        "modal.move.success-label": "Os elementos foram movidos com sucesso",
-        "modal.upload-list.footer.button":
+        "upload.modal.move.success-label":
+          "Os elementos foram movidos com sucesso",
+        "upload.modal.upload-list.footer.button":
           "Enviar {number, plural, one {# arquivo} other {# arquivos}} para a biblioteca",
-        "modal.upload-list.sub-header.button": "Adicionar mais arquivos",
-        "search.clear.label": "Limpar pesquisa",
-        "search.label": "Buscar por um arquivo",
-        "search.placeholder": "ex: o primeiro cachorro na lua",
-        "settings.blockTitle": "Gerenciamento de Arquivos",
-        "settings.form.sizeOptimization.description":
+        "upload.modal.upload-list.sub-header.button": "Adicionar mais arquivos",
+        "upload.search.clear.label": "Limpar pesquisa",
+        "upload.search.label": "Buscar por um arquivo",
+        "upload.search.placeholder": "ex: o primeiro cachorro na lua",
+        "upload.settings.blockTitle": "Gerenciamento de Arquivos",
+        "upload.settings.form.sizeOptimization.description":
           "Habilitar esta opção reduzirá o tamanho da imagem e ligeiramente reduzirá sua qualidade.",
-        "settings.form.sizeOptimization.label": "Otimização do tamanho",
-        "settings.header.label": "Biblioteca de Mídia",
-        "settings.section.doc.label": "DOC",
-        "settings.sub-header.label":
+        "upload.settings.form.sizeOptimization.label": "Otimização do tamanho",
+        "upload.settings.header.label": "Biblioteca de Mídia",
+        "upload.settings.section.doc.label": "DOC",
+        "upload.settings.sub-header.label":
           "Configure as configurações da Biblioteca de Mídia",
-        "sort.label": "Ordenar por",
-        "sort.updated_at_asc": "Atualizações mais antigas",
-        "sort.updated_at_desc": "Atualizações mais recentes",
-        "list.table.header.actions": "ações",
-        "list.table.header.preview": "visualização",
-        "list.table.header.name": "nome",
-        "list.table.header.ext": "extensão",
-        "list.table.header.size": "tamanho",
-        "list.table.header.createdAt": "criado",
-        "list.table.header.updatedAt": "última atualização",
-        "list.table.header.sort": "Ordenar por {label}",
-        "list.table.content.empty-label": "Este campo está vazio",
-        "tabs.title": "Como você deseja enviar seus arquivos?",
-        "config.back": "Voltar",
-        "config.subtitle":
+        "upload.sort.label": "Ordenar por",
+        "upload.sort.updated_at_asc": "Atualizações mais antigas",
+        "upload.sort.updated_at_desc": "Atualizações mais recentes",
+        "upload.list.table.header.actions": "ações",
+        "upload.list.table.header.preview": "visualização",
+        "upload.list.table.header.name": "nome",
+        "upload.list.table.header.ext": "extensão",
+        "upload.list.table.header.size": "tamanho",
+        "upload.list.table.header.createdAt": "criado",
+        "upload.list.table.header.updatedAt": "última atualização",
+        "upload.list.table.header.sort": "Ordenar por {label}",
+        "upload.list.table.content.empty-label": "Este campo está vazio",
+        "upload.tabs.title": "Como você deseja enviar seus arquivos?",
+        "upload.config.back": "Voltar",
+        "upload.config.subtitle":
           "Defina as configurações de visualização da biblioteca de mídia.",
-        "config.entries.title": "Itens por página",
-        "config.sort.title": "Ordem de classificação padrão",
-        "config.entries.note":
+        "upload.config.entries.title": "Itens por página",
+        "upload.config.sort.title": "Ordem de classificação padrão",
+        "upload.config.entries.note":
           "Número de arquivos exibidos por padrão na Biblioteca de Mídia",
-        "config.note":
+        "upload.config.note":
           "Nota: Você pode substituir este valor na biblioteca de mídia.",
-        "config.popUpWarning.warning.updateAllSettings":
+        "upload.config.popUpWarning.warning.updateAllSettings":
           "Isso modificará todas as suas configurações",
-        "view-switch.list": "Visualização em Lista",
-        "view-switch.grid": "Visualização em Grade",
+        "upload.view-switch.list": "Visualização em Lista",
+        "upload.view-switch.grid": "Visualização em Grade",
       },
     },
   },
