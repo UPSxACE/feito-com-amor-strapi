@@ -36,8 +36,7 @@ export default {
         "Auth.form.welcome.subtitle": "Login to your account",
       },
       "pt-BR": {
-        "app.components.Auth.form.welcome.subtitle": "Entrar na sua conta",
-        "app.Auth.form.welcome.subtitle": "Entrar na sua conta",
+        "Auth.form.welcome.subtitle": "Entrar na sua conta",
         /** Upload plugin */
         "upload.apiError.FileTooBig":
           "O arquivo enviado excede o tamanho máximo permitido.",
