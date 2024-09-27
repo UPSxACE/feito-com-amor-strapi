@@ -317,6 +317,8 @@ export default {
           "Há erros de validação no seu documento. Corrija-os antes de salvar.",
         /** extra */
         "content-manager.plugin.name": "Gestão de conteúdos",
+        "upload.input.label": "Arraste & Solte aqui ou",
+        "upload.modal.upload-list.sub-header.add-folder"
       },
     },
   },
