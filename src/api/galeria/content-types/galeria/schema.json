@@ -4,7 +4,8 @@
   "info": {
     "singularName": "galeria",
     "pluralName": "galerias",
-    "displayName": "Galeria"
+    "displayName": "Galeria",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,14 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "Imagem": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -491,12 +491,13 @@ export interface ApiGaleriaGaleria extends Struct.CollectionTypeSchema {
     singularName: 'galeria';
     pluralName: 'galerias';
     displayName: 'Galeria';
+    description: '';
   };
   options: {
     draftAndPublish: false;
   };
   attributes: {
-    Imagem: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    Imagem: Schema.Attribute.Media<'images'>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
@@ -558,7 +559,7 @@ export interface ApiPrecoPreco extends Struct.CollectionTypeSchema {
   attributes: {
     titulo: Schema.Attribute.String;
     descricao: Schema.Attribute.Text;
-    imagem: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagem: Schema.Attribute.Media<'images'>;
     preco: Schema.Attribute.Decimal & Schema.Attribute.DefaultTo<0>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
