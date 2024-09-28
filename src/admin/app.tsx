@@ -38,6 +38,7 @@ export default {
         "Auth.form.welcome.subtitle": "Login to your account",
       },
       "pt-BR": {
+        "content-manager.HeaderLayout.button.label-add-entry": "Adicionar",
         "Auth.form.welcome.subtitle": "Entrar na sua conta",
         /** Upload plugin */
         "upload.apiError.FileTooBig":
